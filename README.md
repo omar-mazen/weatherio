@@ -123,7 +123,6 @@ The `route.js` file manages the application's routing system. It defines routes 
 ### 1600x1200 Resolution
 ![1600x1200](/screenshots/1600x1200.png)
 
-Remember, these descriptions are optional but can enhance the understanding of how your website adapts to various devices and screen sizes.
 ## Contributing
 
 We welcome contributions to enhance the project! If you find any issues or have ideas for improvements, please don't hesitate to report them through GitHub issues. You can also suggest enhancements or submit pull requests to help make this project even better.
