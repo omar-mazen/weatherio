@@ -21,7 +21,7 @@ const currentLoction = ()=>{
         const{latitude,longitude}=res.coords;
         updateWeather(`lat=${latitude}`,`lon=${longitude}`)
     },err=>{
-        approximatelocation()
+        window.location.hash = "#/approximatelocation";
     })
 }
 const searchedLoction = query=>updateWeather(...query.split("&"));
@@ -37,14 +37,8 @@ const checkHash = ()=>{
 }
 window.addEventListener("hashchange",checkHash)
 window.addEventListener("load",()=>{
-    if(!window.location.hash){
-        navigator.permissions.query({ name: "geolocation" }).then((result) => {
-            if (result.state === "granted") 
-                window.location.hash="#/current-location";
-            else
-                approximatelocation()
-        })
-    }
+    if(!window.location.hash)
+        window.location.hash="#/current-location";
     else
         checkHash();
 })
