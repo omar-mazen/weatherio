@@ -1,5 +1,5 @@
 # Weatherio Website Documentation
-##[Weatherio](https://omvr-mvzen.github.io/weatherio/)
+## [Weatherio](https://omvr-mvzen.github.io/weatherio/)
 ![1600x1200](/screenshots/1600x1200.png)
 ## Introduction
 
