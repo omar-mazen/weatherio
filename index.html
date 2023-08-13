@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>weatherio</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="weatherio">
+    <meta name="description" content="weatherio is a weather app made by codewithsadee">
+    
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assest/css/style.css">
+
+    <script type="module" src="./assest/js/app.js"></script>
+    <script type="module" src="./assest/js/route.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="" class="logo">
+                <img src="assest/images/logo.png" alt="logo">
+            </a>
+            <div class="search-view" data-search-view>
+                <div class="search-wrapper">
+                    <input type="search" name="search" class="search-field" placeholder="search city ..." autocomplete="off" data-search-field>
+                    <span class="m-icon leading-icon">search</span>
+                    <button class="icon-btn leading-icon has-state" aria-label="close search" data-search-toggler>
+                        <span class="m-icon">arrow_back</span>
+                    </button>
+                </div>
+                <div class="search-result" data-search-result>
+                </div>
+            </div>
+            <div class="header-actions">
+                <button class="icon-btn has-state" aria-label="open search" data-search-toggler>
+                    <span class="m-icon">search</span>
+                </button>
+                <a href="#/current-location" class="btn-primary has-state" data-current-location-btn>
+                    <span class="m-icon">my_location</span>
+                    <span class="span">Current Location</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <article class="container" data-container>
+            <div class="content-left">
+                <!-- current weater -->
+                <section class="section current-weather" aria-label="current weather" data-current-weather></section>
+                <!-- forecast -->
+                <section class="section forecast" aria-labelledby="forecast-label" data-5-day-forecast></section>
+            </div>
+            <div class="content-right">
+                <!-- highlight -->
+                <section class="section highlights" aria-labelledby="highlights-lable" data-highlights></section>
+                <section class="section hourly-forecast" aria-label="hourly forecast" data-hourly-forecast></section>
+            </div>
+            <div class="loading" data-loading>
+            </div>
+        </article>
+    </main>
+    <!-- 404 Section -->
+    <section class="error-content" data-error-content>
+        <h2 class="heading">404</h2>
+        <p class="body-1">Page not found!</p>
+        <a href="" class="btn-primary">
+            <span class="span">Go Home</span>
+        </a>
+    </section>
+</body>
+</html>
