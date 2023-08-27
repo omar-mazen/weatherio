@@ -1,6 +1,6 @@
 # Weatherio Website Documentation
 ![1600x1200](/screenshots/1600x1200.png)
-[Weatherio](https://omar-mvazen.github.io/weatherio/)
+[Weatherio](https://omar-mazen.github.io/weatherio/)
 ## Introduction
 
 The Weather Website is a web application that provides real-time weather information. It offers features such as viewing the current weather, a 5-day forecast, wind speed, temperature for the current day, sunrise and sunset times, air quality, humidity, visibility, feels like temperature, and atmospheric pressure.
@@ -129,7 +129,7 @@ We welcome contributions to enhance the project! If you find any issues or have 
 
 ## License
 
-This project is distributed under the GNU General Public License (GPL). You can find the full text of the license in the [LICENSE](https://github.com/omvr-mvzen/weatherio/blob/main/LICENSE) file.
+This project is distributed under the GNU General Public License (GPL). You can find the full text of the license in the [LICENSE](https://github.com/omar-mazen/weatherio/blob/main/LICENSE) file.
 
 ---
 
