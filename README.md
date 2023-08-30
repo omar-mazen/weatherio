@@ -130,7 +130,3 @@ We welcome contributions to enhance the project! If you find any issues or have 
 ## License
 
 This project is distributed under the GNU General Public License (GPL). You can find the full text of the license in the [LICENSE](https://github.com/omar-mazen/weatherio/blob/main/LICENSE) file.
-
----
-
-This documentation provides a detailed overview of the Weather Website project, including its structure, functionality, and usage. It aims to provide developers and contributors with clear insights into the application's implementation and features. The Weather Website is designed to help users easily access weather information for any city and improve their overall weather-related experience. If you have any questions or need further assistance, please feel free to reach out to the project maintainers. Happy weather exploring!
